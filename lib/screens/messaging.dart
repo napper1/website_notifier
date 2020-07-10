@@ -195,7 +195,7 @@ class _PushMessagingExampleState extends State<PushMessagingExample> {
                 child: Padding(
                   padding: EdgeInsets.all(30),
                   child: Text('Use the form to subscribe to a topic for use in GCM push notifications. '
-                      'You will need to setup cloud messaging in GCM.'),
+                      'You will need to setup cloud messaging in GCM if you wish to use this feature.'),
                 ),
               ),
               Row(children: <Widget>[
